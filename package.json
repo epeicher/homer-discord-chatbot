@@ -1,0 +1,18 @@
+{
+  "name": "homer-discord-chatbot",
+  "version": "1.0.0",
+  "main": "discord_bot.js",
+  "type": "module",
+  "repository": "git@github.com:epeicher/homer-discord-chatbot.git",
+  "author": "Roberto Aranda <ese.rober@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.6.0",
+    "dotenv": "^16.0.3",
+    "node-fetch": "2.6.6"
+  },
+  "scripts": {
+    "start": "node discord_bot.js",
+    "dev": "NODE_ENV=dev npm run start"
+  }
+}

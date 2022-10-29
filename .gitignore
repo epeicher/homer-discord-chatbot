@@ -129,3 +129,5 @@ dmypy.json
 .pyre/
 
 HuggingFace-API-key.txt
+node_modules/
+
