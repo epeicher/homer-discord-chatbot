@@ -16,7 +16,7 @@ const client = new Client({
 });
 // my model URL
 const API_URL =
-  'https://api-inference.huggingface.co/models/epeicher/DialoGPT-large-homer';
+  'https://api-inference.huggingface.co/models/epeicher/DialoGPT-medium-homer';
 
 // log out some info
 client.on('ready', () => {
